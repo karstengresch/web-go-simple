@@ -24,5 +24,5 @@ func main() {
     })
     log.Printf("listening on %s...", address)
     log.Fatal(http.ListenAndServe(address, nil))
-    log.Printf("Hi from the end - and hi from another dev.")
+    log.Printf("Hi from the end - and hi from another dev: evals08")
 }
