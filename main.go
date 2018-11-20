@@ -13,7 +13,7 @@ var (
 )
 
 func init() {
-    flag.StringVar(&message, "message", "there", "a message to print")
+    flag.StringVar(&message, "message", "folks", "a message to print")
     flag.StringVar(&address, "address", "0.0.0.0:8080", "address/port to listen on")
 }
 
